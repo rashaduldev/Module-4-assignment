@@ -1,9 +1,11 @@
 .container {
     margin-top: 50px;
+    text-align: center;
 }
 
 .product {
     margin-bottom: 20px;
+    background: #ccc;
 }
 
 .shopping-cart {
