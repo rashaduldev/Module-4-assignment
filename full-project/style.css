@@ -1,0 +1,24 @@
+.container {
+    margin-top: 50px;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.shopping-cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.shopping-cart h2 {
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    margin-bottom: 10px;
+}
+
+.clear-cart {
+    margin-top: 10px;
+}
