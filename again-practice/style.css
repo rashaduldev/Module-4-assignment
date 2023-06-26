@@ -31,10 +31,18 @@ body{
     margin-top: 50px;
     background-color: #9feeda;
     border-radius: 3px;
-    background-image: url(/);
+    /* background-image: url(/again-practice/images.jpeg); */
+    display: block;
+    background-repeat: no-repeat;
 }
+.product img{
+    width: 140px;
+    height: 140px;
+    border-radius: 2rem;
+}
+
 .btn{
-    margin-top: 170px;
+    margin-top: 30px;
 }
 
 .shoping_cart {
