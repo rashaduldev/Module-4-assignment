@@ -1,0 +1,41 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.twoparents{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid #eee; */
+    /* height: 400px;
+    width: 400px; */
+}
+.product {
+    margin-bottom: 20px;
+    border: 2px solid #eee;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #9feeda;
+}
+
+.shopping-cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.shopping-cart h2 {
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    margin-bottom: 10px;
+}
+
+.clear-cart {
+    margin-top: 10px;
+}
