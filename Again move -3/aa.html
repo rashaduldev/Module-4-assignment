@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>This is a message</h3>
+   
     <div class="container">
-        <p>Enter a Message</p>
+        <h3>This is a message</h3>
+        <hr>
+        <p style="font-size: 18px; margin-bottom: 20px;">Enter a Message</p>
         <div class="input">
-            <input type="text" placeholder="Enter the text">
+            <input id="messInput" type="text" placeholder="Enter the text">
         </div>
-        <button class="submit">Submit</button>
+        <button onclick="clickSubmit" class="submit">Submit</button>
+        <p id="messageOutput" style="color: black;" ></p>
     </div>
+
+    <script>
+        const messageInput=document.getElementById("messInput");
+        function clickSubmit(){
+            document.getElementById("messageOutput").innerHTML=messageInput.value;
+            messageInput.value="";
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    /* height: 100px; */
+    background: #000;
+   border: 2px solid red;
+   height: 30%;
+   width: 30%;
+}
