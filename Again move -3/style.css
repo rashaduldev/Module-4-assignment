@@ -18,3 +18,8 @@ body{
    width: 30%;
    border-radius: 2rem;
 }
+input{
+    height: 30px;
+    width: 50%;
+    border-radius: 2rem;
+}
