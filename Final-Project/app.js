@@ -21,7 +21,7 @@ clearCartButton.addEventListener('click', () => {
 });
 
 function updateCartDisplay() {
-    cartItemsElement.innerHTML = '';
+    cartItemsElement.innerHTML = 'click';
     let total = 0;
 
     const cartItems = getCartItems();
