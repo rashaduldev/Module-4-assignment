@@ -15,16 +15,12 @@
         <div class="input">
             <input id="messInput" type="text" placeholder="Enter the text">
         </div>
-        <button onclick="clickSubmit" class="submit" value="Submit">Submit</button>
-        <div id="messageOutput" style="color: black;"></div>
+        <button id="submitButton" onclick="clickSubmit" class="submit" value="Submit">Submit</button>
+        <p id="messageOutput" style="color: black;"></p>
     </div>
 
-    <script>
-        const messageInput=document.getElementById("messInput");
-        function clickSubmit(){
-            document.getElementById("messageOutput").innerHTML=messageInput.value;
-            messageInput.value="";
-        }
+    <script src="aa.js">    
+      
     </script>
 </body>
 </html>
