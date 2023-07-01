@@ -34,3 +34,10 @@ button{
     margin-top: 10px;
     cursor: pointer;
 }
+
+button:hover{
+    background-color: #45c5d8;
+    color: #fff;
+    width: 24%;
+    font-size: 22px;
+}
