@@ -7,14 +7,14 @@ const orderConfirmButton = document.querySelector('.order_now');
 const cartItemsElement = document.getElementById('cart_items');
 const totalElement = document.getElementById('total');
 
-addToCartButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const productId = parseInt(button.dataset.id);
-        const product = products.find(p => p.id === productId);
-        addToCart(product);
-        updateCartDisplay();
-    });
-});
+addToCartButtons.forEach(button=>{{
+    button.addEventListener('click',()=>{
+      const productid=parseInt(button.dataset.id);
+    const product= products.find(p=>p.id===productid);
+    addToCart(product);
+    updateCartDisplay();
+    })
+}})
 
 clearCartButton.addEventListener('click', () => {
     clearCart();
