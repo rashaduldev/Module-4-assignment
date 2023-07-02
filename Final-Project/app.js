@@ -3,7 +3,8 @@ import { addToCart, getCartItems, clearCart } from './cart.js';
 
 const addToCartButtons = document.querySelectorAll('.add-to-cart');
 const clearCartButton = document.querySelector('.clear-cart');
-const cartItemsElement = document.getElementById('cart-items');
+const orderConfirmButton = document.querySelector('.order_now');
+const cartItemsElement = document.getElementById('cart_items');
 const totalElement = document.getElementById('total');
 
 addToCartButtons.forEach(button => {
@@ -21,7 +22,7 @@ clearCartButton.addEventListener('click', () => {
 });
 
 function updateCartDisplay() {
-    cartItemsElement.innerHTML = 'click';
+    cartItemsElement.innerHTML = '';
     let total = 0;
 
     const cartItems = getCartItems();
